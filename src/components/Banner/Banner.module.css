@@ -1,0 +1,65 @@
+.Banner { 
+    height: 350px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.BannerTitle{
+    font-size: 34px;
+    margin-bottom: 33px;
+}
+.BannerDesc{
+    font-size: 20px;
+}
+.BannerContent{
+    position: absolute;
+    z-index: 2;
+}
+.BannerImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.BannerWrapper{
+    width: 100%;
+    height: 100%;
+}
+.Overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1;
+}
+@media (max-width:600px){
+    .BannerTitle{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .BannerDesc{
+        font-size: 12px;
+    }
+}
+@media (min-width:768px){
+    .BannerTitle{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .BannerDesc{
+        font-size: 15px;
+    }
+}
+@media (min-width:1024px){
+    .BannerTitle{
+        font-size: 34px;
+        margin-bottom: 15px;
+    }
+    .BannerDesc{
+        font-size: 20px;
+    }
+}

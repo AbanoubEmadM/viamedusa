@@ -1,0 +1,61 @@
+.Home{
+    background: url('../../assets/pexels-tubarones-photography-3025109.jpg');
+    position: relative;
+    margin-bottom: 80px;
+}
+.HomeContent{
+    padding: 166px;
+}
+.HomeTitle{
+    font-size: 72px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+.HomeDesc{
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+.HomeBtn {
+    text-decoration: none;
+    color: #fff;
+}
+.HomeBtn:hover{
+    color: #fff;
+}
+@media (max-width:500px){
+    .HomeTitle{
+        font-size: 32px;
+    }
+    .HomeDesc{
+        font-size: 14px;
+    }
+    .HomeContent{
+        padding: 35px;
+    }
+}
+@media (min-width: 768px){
+    .Home{
+        padding: 30px;
+    }
+    .HomeTitle{
+        font-size: 36px;
+    }
+    .HomeDesc{
+        font-size: 16px;
+    }
+    .HomeContent{
+        padding: 68px;
+    }
+}
+@media (min-width: 1024px){
+    .HomeContent{
+        padding: 166px;
+    }
+    .HomeTitle{
+        font-size: 72px;
+    }
+    .HomeDesc{
+        font-size: 18px;
+    }
+}

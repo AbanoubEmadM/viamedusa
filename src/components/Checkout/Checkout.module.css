@@ -1,0 +1,91 @@
+.CartImage{
+    width: 100%;
+    height: 280px;
+    display: block;
+    object-fit: cover;
+    margin: auto;
+}
+.Product{
+    display: flex;
+    justify-content: space-between;
+}
+.Stars{
+    margin-bottom: 20px;
+}
+.ProductDetails{
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    color: var(--main-color);
+}
+.ProductImage{
+    width: 80px;
+    height: 80px;
+    display: block;
+    object-fit: cover;
+}
+.ProductTitle{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 10px;
+    color: var(--main-color);
+    font-family: 'Lato', sans-serif;
+}
+.ProductDesc{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.ProductInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Controls{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.Quantity{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 15px;
+}
+.QuantityControl{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+}
+.QuantityNumber{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+}
+.Input{
+    padding: 13px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: none;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.Input:focus{
+    border: 1px solid var(--main-color);
+    transition: 0.3s;
+}
+.Name{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:600px){
+    .AllProducts{
+        margin-top: 20px;
+    }
+}

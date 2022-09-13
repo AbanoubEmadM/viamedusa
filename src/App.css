@@ -1,0 +1,122 @@
+.App{
+  font-weight: 400;
+}
+html{
+  scroll-behavior: smooth;
+}
+:root {
+  --main-color:#c3935b;
+  --secondary-color: #ac7a3f;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Domine', serif;
+}
+nav{
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1545848;
+  width: 100%;
+}
+.button {
+  border: none;
+  background: var(--main-color);
+  padding: 10px 27px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.3s;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+.link{
+  color:  #000 !important;
+  text-decoration: none !important;
+}
+.button:hover{
+  background: var(--secondary-color);
+  transition: 0.3s;
+  color: #fff;
+}
+.underlined-heading{
+  margin-bottom: 80px;
+  font-weight: 600;
+  border-bottom: 3px solid var(--main-color);
+  padding-bottom: 8px;
+  width: fit-content;
+  margin: 40px auto;
+}
+@media (max-width: 500px){
+  .button{
+    font-size: 12px;
+  }
+}
+/*Global Product Style*/
+.Product{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;    
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-right: 15px;
+  border-radius: 5px;
+  width: 23%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.Product:hover{
+  transition: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Stars{
+  margin-bottom: 20px;
+}
+.ProductImage{
+  width: 100%;
+  height: 280px;
+  display: block;
+  object-fit: cover;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.ProductTitle{
+  font-size: 17px;
+  color: #777;
+}
+.ProductDesc{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+.ProductLink{
+  color: #000;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 30px;
+}
+.ProductLink:hover{
+  color: #000;
+}
+.ProductsCategory{
+  margin-bottom: 80px;
+  font-weight: 600;
+  border-bottom: 3px solid var(--main-color);
+  padding-bottom: 8px;
+  width: fit-content;
+  margin: 20px auto;
+}
+@media (max-width: 600px){
+  .Product{
+      margin: auto;
+      width: 100%;
+  }
+}
+@media (min-width: 768px){
+  .Product{
+      margin: 20px auto;
+      width: 50%;
+  }
+}
+@media (min-width: 1024px){
+  .Product{
+      margin: 20px auto;
+      width: 25%;
+  }
+}

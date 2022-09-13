@@ -1,0 +1,79 @@
+.Stars{
+    margin-bottom: 20px;
+}
+.ProductItem {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+.ProductTitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+.AddToCart{
+    border: 2px solid var(--main-color);
+    padding: 8px 27px;
+    color: var(--main-color);
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+    width: 100%;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+.AddToCart:hover{
+    background-color: var(--main-color);
+    color: #fff;
+    transition: 0.3s;
+}
+.ProductImage {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+.ProductDetails {
+    margin-left: 30px;
+}
+.Controls{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.Quantity{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 15px;
+}
+.QuantityControl{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+}
+.QuantityNumber{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+}
+.BuyBtn{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+@media (max-width:600px) {
+    .ProductItem{
+        flex-direction: column;
+    }
+    .ProductTitle{
+        font-size: 30px;
+    }
+    .ProductDetails{
+        margin: 10px 0;
+    }
+}

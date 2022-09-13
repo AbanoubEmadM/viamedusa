@@ -1,0 +1,15 @@
+.Input{
+    padding: 13px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: none;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.Input:focus{
+    border: 1px solid var(--main-color);
+    transition: 0.3s;
+}
+.Desc{
+    margin-bottom: 25px;
+}

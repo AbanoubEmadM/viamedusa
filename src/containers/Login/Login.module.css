@@ -1,0 +1,56 @@
+.FormContainer{
+    position: fixed;
+    z-index: 9999999999;
+    background-color: white;
+    width: 560px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 32%;
+    top: 23%;
+    box-sizing: border-box;
+    height: 473px;
+    transition: all 0.3s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.LoginTitle{
+    margin-bottom: 25px;
+}
+.NestedLogin{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+.Input{
+    margin-bottom: 20px;
+    width: 90%;
+}
+.CloseModal{
+    position: absolute;
+    cursor: pointer;
+    z-index: 111111;
+    top: 8%;
+    right: 10%;
+}
+.SubmitBtn{
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.CreateAccount{
+    text-decoration: none;
+    color: #000 !important;
+    cursor: pointer;
+}
+@media (max-width:600px){
+    .FormContainer{
+        width: 359px;
+        left: 28px;
+        top: 17%;
+        height: 402px;
+    }
+}

@@ -1,0 +1,32 @@
+.About {
+    background: url("../../assets/about.webp");
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    padding: 151px;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+.AboutTitle {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.JewelleryBtn{
+    color: #fff;
+    text-decoration: none;
+}
+.JewelleryBtn:hover{
+    color: #fff;
+}
+@media (max-width:500px){
+    .About{
+        padding: 70px;
+        background-attachment:unset
+    }
+    .AboutTitle{
+        font-size: 30px;
+    }
+    .AboutDesc{
+        font-size: 15px;
+    }
+}

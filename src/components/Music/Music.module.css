@@ -1,0 +1,23 @@
+.Music{
+    position: fixed;
+    z-index: 9999999999;
+    background-color: white;
+    width: 560px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 32%;
+    top: 23%;
+    box-sizing: border-box;
+    height: 200px;
+    transition: all 0.3s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

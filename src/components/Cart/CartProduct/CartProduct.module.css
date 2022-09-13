@@ -1,0 +1,79 @@
+.CartImage{
+    width: 100%;
+    height: 280px;
+    display: block;
+    object-fit: cover;
+    margin: auto;
+}
+.Product{
+    display: flex;
+    justify-content: space-between;
+}
+.Stars{
+    margin-bottom: 20px;
+}
+.ProductDetails{
+    display: flex;
+    align-items: center;
+    color: var(--main-color);
+}
+.ProductImage{
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: auto 20px 0 20px;
+    object-fit: cover;
+}
+.ProductTitle{
+    font-size: 20px;
+    color: var(--main-color);
+    font-family: 'Lato', sans-serif;
+}
+.ProductDesc{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.ProductInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Controls{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.Quantity{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 15px;
+}
+.QuantityControl{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+}
+.QuantityNumber{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+}
+.Remove{
+    cursor: pointer;
+}
+@media (max-width: 600px){
+    .ProductTitle{
+        font-size:15px;
+    }
+    .Remove{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,15 @@
+.Cart{
+    margin:109px 122px;
+    max-width:1393px;
+}
+
+@media (max-width: 600px){
+    .Cart{
+        margin:50px 0;
+    }
+}
+@media (max-width: 1024px){
+    .Cart{
+        margin:50px 0;
+    }
+}

@@ -1,0 +1,11 @@
+/* .FormContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 150px auto;
+    justify-content: space-between;
+} */
+.ContactImg {
+    margin: 25px 0;
+        width: 100%;
+   } 

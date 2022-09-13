@@ -1,0 +1,146 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: row-reverse;
+    padding: 10px 40px;
+}
+.nav-items .main-ul{
+    margin: 0;
+    padding: 0;
+}
+.nav-items .item {
+    margin-left: 21px;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: #000;
+    transition: 0.3s;
+    font-size: 16px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: 500;
+}
+.nav-items .item.active{
+    border-bottom: 2px solid var(--main-color);
+    transition: 0.3s;
+}
+.nav-items .item:hover{
+    border-bottom: 2px solid var(--main-color);
+    transition: 0.3s;
+}
+.nav-items a span{
+    margin-right: 10px;
+}
+.nav-items .item.active{
+    color: var(--main-color);
+    transition: 0.3s;
+}
+.navbar .logo{
+    width: 150px;
+}
+.bars{
+    display: none;
+}
+.nested-products{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: absolute;
+    background: #fff;
+    z-index: 1000;
+    left: -95px;
+    width: 262px;
+    list-style: none;
+    top: 28px;
+    padding: 20px;
+}
+.nested-languages{
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    position: absolute;
+    background: #fff;
+    z-index: 1000;
+    left: -64px;
+    width: 140px;
+    list-style: none;
+    top: 36px;
+    padding: 20px;
+}
+.products{
+    position: relative;
+    cursor: pointer;
+}
+.arrow{
+    position:absolute;
+    left:46%;
+    top:-9px;
+    color: var(--main-color);
+}
+.nested-item{
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: block;
+    font-size: 15px;
+}
+.nested-item:hover{
+    color: #000;
+}
+.cart-length{
+    position: absolute;
+    left: 17px;
+    background: var(--main-color);
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -7px;
+}
+.close{
+    display: none;
+}
+@media (max-width: 900px){
+    .navbar{
+        align-items: center;
+    }
+    .nav-items{
+        position: absolute;
+        background-color: #fff;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        transition: 0.4s;
+    }
+    .bars{
+        display: block;
+    }
+    .ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+    .NavUl{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+    .item{
+        margin: 18px 26px;
+    }
+    .navbar .logo{
+        width: 120px;
+    }
+    .close{
+        display: block;
+        position: absolute;
+        top: 19px;
+        right: 26px;
+    }
+} 

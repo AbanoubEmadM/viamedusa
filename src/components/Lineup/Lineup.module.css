@@ -1,0 +1,38 @@
+.Lineup{
+   margin-bottom: 80px;
+   background: url('../../assets/lineup.webp');
+   padding: 100px;
+}
+.LineupContent{
+    color: #fff;
+    width: 50%;
+}
+.LineupDesc{
+    font-size: 16px;
+    line-height: 30px;
+}
+.LineupContainer{
+    display: flex;
+    align-items: center;
+}
+@media (max-width:500px){
+    .Lineup{
+        padding: 30px;
+    }
+    .LineupContent{
+        width: 100%;
+    }
+}
+@media (min-width:768px){
+    .Lineup{
+        padding: 89px;
+    }
+    .LineupContent{
+        width: 100%;
+    }
+}
+@media (min-width:1024px){
+    .LineupContent{
+        width: 50%;
+    }
+}

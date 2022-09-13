@@ -1,0 +1,11 @@
+.SignUpTitle{
+    margin-bottom: 25px;
+}
+.Input{
+    width: 48% !important;
+}
+@media (max-width:600px){
+    .Input{
+        width: 99% !important;
+    }
+}

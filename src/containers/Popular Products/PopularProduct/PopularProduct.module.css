@@ -1,0 +1,24 @@
+.Product{
+    width: 350px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.Product:hover{
+    color: #000;
+}
+.ProductImg {
+    width: 200px;
+}
+@media (min-width: 768px){
+    .Product{
+        width: 387px;
+    }
+}
+@media (min-width: 1024px){
+    .Product{
+        width: 350px;
+    }
+}

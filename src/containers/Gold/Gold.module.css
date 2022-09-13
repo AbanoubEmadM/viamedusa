@@ -1,0 +1,37 @@
+
+.Stars{
+    margin-bottom: 20px;
+}
+.ProductImage{
+    width: 100%;
+    height: 280px;
+    display: block;
+    object-fit: cover;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.ProductTitle{
+    font-size: 17px;
+    color: #777;
+}
+.ProductDesc{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.ProductLink{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 30px;
+}
+.ProductLink:hover{
+    color: #000;
+}
+.ProductsCategory{
+    margin-bottom: 80px;
+    font-weight: 600;
+    border-bottom: 3px solid var(--main-color);
+    padding-bottom: 8px;
+    width: fit-content;
+    margin: 20px auto;
+}
